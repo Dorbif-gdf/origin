@@ -1,8 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-enum Month 
-{
+enum Month {
     JANUARY = 1,
     FEBRUARY,
     MARCH,
@@ -28,10 +27,13 @@ int main()
         cin >> number;
 
         if (number == 0) {
+            cout << "До свидания";
             break;
         }
 
-        switch (number) {
+        Month month = (Month)number;
+
+        switch (month) {
         case JANUARY:   cout << "Январь\n"; break;
         case FEBRUARY:  cout << "Февраль\n"; break;
         case MARCH:     cout << "Март\n"; break;
