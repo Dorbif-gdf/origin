@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kiril\\Desktop\\origin\\Lesson_2\\Task 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC294A9-7849-4368-BC89-9D2D2B67B6AB}|Task 1\\Task 1.vcxproj|C:\\Users\\kiril\\Desktop\\origin\\Lesson_2\\Task 1\\Task 1\\Task 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7DC294A9-7849-4368-BC89-9D2D2B67B6AB}|Task 1\\Task 1.vcxproj|solutionrelative:Task 1\\Task 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task 1.cpp",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\origin\\Lesson_2\\Task 1\\Task 1\\Task 1.cpp",
+              "RelativeDocumentMoniker": "Task 1\\Task 1.cpp",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\origin\\Lesson_2\\Task 1\\Task 1\\Task 1.cpp",
+              "RelativeToolTip": "Task 1\\Task 1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-01T10:22:59.096Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
