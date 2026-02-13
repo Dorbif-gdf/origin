@@ -74,14 +74,7 @@ int main() {
         fout << addresses[i]->get_output_address() << endl;
     }
 
-    // Освобождение памяти
-    for (int i = 0; i < N; i++) {
-        delete addresses[i];
-    }
-    delete[] addresses;
-
     fin.close();
     fout.close();
 
-    return 0;
 }
