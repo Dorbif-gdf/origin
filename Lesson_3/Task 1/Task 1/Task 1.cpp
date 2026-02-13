@@ -2,7 +2,6 @@
 #include <fstream>
 #include <string>
 
-
 class Address {
 private:
     std::string city;
@@ -26,7 +25,6 @@ public:
 };
 
 int main() {
-
     std::ifstream in("in.txt");
     std::ofstream out("out.txt");
 
@@ -62,6 +60,12 @@ int main() {
         out << addresses[i]->get_output_address() << std::endl;
     }
 
+    for (int i = 0; i < N; i++) {
+        delete addresses[i];
+    }
+    delete[] addresses;
+
     in.close();
     out.close();
+
 }

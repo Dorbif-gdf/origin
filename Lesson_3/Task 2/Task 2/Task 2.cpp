@@ -51,7 +51,6 @@ int main() {
     fin >> N;
     fin.ignore();
 
-    // Массив указателей
     Address** addresses = new Address * [N];
 
     string city, street;
@@ -73,6 +72,11 @@ int main() {
     for (int i = 0; i < N; i++) {
         fout << addresses[i]->get_output_address() << endl;
     }
+
+    for (int i = 0; i < N; i++) {
+        delete addresses[i];
+    }
+    delete[] addresses;
 
     fin.close();
     fout.close();
