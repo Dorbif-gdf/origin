@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// Базовый класс
 class Figure {
 protected:
     string name;
@@ -13,7 +12,6 @@ public:
     virtual ~Figure() {}
 };
 
-// ТРЕУГОЛЬНИК 
 
 class Triangle : public Figure {
 protected:
@@ -38,7 +36,6 @@ public:
     }
 };
 
-// Прямоугольный треугольник
 class RightTriangle : public Triangle {
 public:
     RightTriangle(int a, int b, int c,
@@ -48,7 +45,6 @@ public:
     }
 };
 
-// Равнобедренный треугольник
 class IsoscelesTriangle : public Triangle {
 public:
     IsoscelesTriangle(int a, int b,
@@ -58,7 +54,6 @@ public:
     }
 };
 
-// Равносторонний треугольник
 class EquilateralTriangle : public Triangle {
 public:
     EquilateralTriangle(int a)
@@ -66,8 +61,7 @@ public:
         name = "Равносторонний треугольник";
     }
 };
-
-// ЧЕТЫРЁХУГОЛЬНИК 
+ 
 
 class Quadrilateral : public Figure {
 protected:
@@ -94,7 +88,6 @@ public:
     }
 };
 
-// Прямоугольник
 class Rectangle : public Quadrilateral {
 public:
     Rectangle(int a, int b)
@@ -104,7 +97,6 @@ public:
     }
 };
 
-// Квадрат
 class Square : public Quadrilateral {
 public:
     Square(int a)
@@ -114,7 +106,6 @@ public:
     }
 };
 
-// Параллелограмм
 class Parallelogram : public Quadrilateral {
 public:
     Parallelogram(int a, int b,
@@ -135,14 +126,12 @@ public:
         name = "Ромб";
     }
 };
-
-// ФУНКЦИЯ ВЫВОДА 
+ 
 
 void print_info(const Figure* figure) {
     figure->print_info();
 }
 
-// MAIN 
 
 int main() {
     setlocale(LC_ALL, "Russian");
