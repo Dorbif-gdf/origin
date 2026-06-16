@@ -46,6 +46,8 @@ void safeExecute(const std::string& operationName, Func func) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Russian");
+
     std::cout << "========================================\n";
     std::cout << "   ÓÏÐÀÂËÅÍÈÅ ÊËÈÅÍÒÀÌÈ (C++ + PostgreSQL)\n";
     std::cout << "========================================\n\n";
