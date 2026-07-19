@@ -1,0 +1,9 @@
+FROM gcc:latest
+
+WORKDIR /app
+
+COPY . .
+
+RUN g++ Task1.cpp -o task2
+
+CMD ["./app"]
